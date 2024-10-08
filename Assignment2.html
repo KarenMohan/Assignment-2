@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="Assignment2.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2><i>Student Data</i></h2>
+
+        <table>
+            <tr>
+                <td class="bold"><i>First Name:</i></td>
+                <td><input type="text" name="first_name" required></td>
+            </tr>
+            <tr>
+                <td class="bold"><i>Last Name:</i></td>
+                <td><input type="text" name="last_name" required></td>
+            </tr>
+            <tr>
+                <td class="bold"><i>Email:</i></td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td class="bold"><i>Phone:</i></td>
+                <td><input type="tel" name="phone" required></td>
+            </tr>
+            <tr>
+                <td class="bold"><i>Date of Birth:</i></td>
+                <td><input type="date" name="dob" required></td>
+            </tr>
+            <tr>
+                <td class="bold"><i>Gender:</i></td>
+                <td>
+                    <label><input type="radio" name="gender" value="male" required> <i>Male</i></label>
+                    <label><input type="radio" name="gender" value="female" required><i>Female</i></label>
+                    <label><input type="radio" name="gender" value="other" required><i>Other</i></label>
+                </td>
+            </tr>
+            <tr>
+                <td class="bold"><i>Address:</i></td>
+                <td><textarea name="address" rows="4" required></textarea></td>
+            </tr>
+        </table>
+
+        <div class="buttons">
+            <button type="submit"><i>Submit</i></button>
+            <button type="reset"><i>Reset</i></button>
+        </div>
+    </div>
+
+</body>
+</html>
